@@ -2,7 +2,7 @@
 session_start();
 $conn = new mysqli('localhost', 'username', 'password', 'database');
 
-$query = "SELECT * FROM products WHERE category = 'iPhone' OR category = 'Apple'";
+$query = "SELECT * FROM eproducts WHERE category = 'iPhone' OR category = 'Apple'";
 $result = $conn->query($query);
 $products = $result->fetch_all(MYSQLI_ASSOC);
 ?>
