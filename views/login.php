@@ -1,31 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connexion</title>
-    <link rel="stylesheet" href="path/to/your/styles.css"> <!-- Ajoutez cette ligne -->
-</head>
-<body>
-    <h1>Page de connexion</h1>
-    <?php 
+<?php
+$isAuthPage = true;
+include 'header.php';
+?>
+
+<style>
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    form {
+        width: 300px;
+        margin: 50px auto;
+    }
+
+    form input[type="text"], form input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    form input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+        background-color: #555;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+</style>
+
+<h1>Page de connexion</h1>
+<?php 
 if (isset($_SESSION['errorMessage'])) {
-    echo "<p style='color:red;'>".$_SESSION['errorMessage']."</p>";
+    echo "<p style='color:red;text-align:center;'>".$_SESSION['errorMessage']."</p>";
     unset($_SESSION['errorMessage']);
 }
-    if (isset($successMessage)) echo "<p style='color:green;'>$successMessage</p>";
-    ?>
-    
-    <form action="index.php?action=loginAttempt" method="post">
+if (isset($successMessage)) {
+    echo "<p style='color:green;text-align:center;'>$successMessage</p>";
+}
+?>
+<form action="index.php?action=loginAttempt" method="post">
     Nom d'utilisateur: <input type="text" name="username"><br>
     Mot de passe: <input type="password" name="password"><br>
     <input type="submit" name="login" value="Se connecter">
 </form>
 
-<form action="index.php?action=login" method="post">
-</form>
 <a href="index.php?action=register">Pas de compte ? S'inscrire</a>
-    <a href="index.php">Retour à l'accueil</a>
-</body>
-</html>
+<a href="index.php">Retour à l'accueil</a>
+
+<?php
+include 'footer.php';
+?>
+

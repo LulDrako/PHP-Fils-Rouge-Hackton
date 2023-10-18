@@ -24,6 +24,9 @@ switch ($action) {
     case 'loginAttempt':
         loginAttempt();
         break;
+    case 'logout':
+        logout();
+        break;
     case 'listProducts':
         listProducts();
         break;
