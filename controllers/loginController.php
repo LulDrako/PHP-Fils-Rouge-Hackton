@@ -26,11 +26,12 @@ function loginAttempt() {
         $password = $_POST['password'];
 
         if (authenticate($username, $password)) {
-            header('Location: index.php?action=home'); // ou 'index.php?action=home' en fonction de votre configuration
+            header('Location: index.php?action=home');
             exit;
         } else {
-            $errorMessage = "Identifiants invalides";
-            include './views/login.php';
+            $_SESSION['errorMessage'] = "Identifiants invalides";
+            header('Location: index.php?action=login');
+            exit;
         }
     }
 }
