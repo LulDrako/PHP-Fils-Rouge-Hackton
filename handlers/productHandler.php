@@ -8,7 +8,7 @@ function getProducts() {
     $sql = "SELECT id, product_name, description, price, stock, image_url, category 
             FROM products 
             WHERE LOWER(product_name) LIKE LOWER(:searchTerm)";
-    
+            
     $stmt = $pdo->prepare($sql);
     $stmt->bindValue(':searchTerm', "%" . strtolower($search) . "%");
     $stmt->execute();
@@ -20,5 +20,4 @@ function listProducts() {
     $products = getProducts();
     require './views/product-list.php';
 }
-
 ?>

@@ -6,7 +6,7 @@
         flex-direction: column;
     }
     main {
-        flex: 1; /* Permet au contenu principal de prendre tout l'espace disponible */
+        flex: 1;
     }
     footer {
     flex-shrink: 0; 

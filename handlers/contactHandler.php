@@ -1,4 +1,5 @@
 <?php
+
 function contact() {
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $name = sanitizeInput($_POST["name"]);

@@ -2,13 +2,13 @@
 $isAuthPage = true;
 include 'header.php';
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Register - CopUrIPhone</title>
-    </head>
-    <style>
+        <style>
         html, body {
                 margin: 0;
                 padding: 0;
@@ -49,20 +49,22 @@ include 'header.php';
             margin: 10px 0;
         }
     </style>
-<body>
-<main>
-<h1>Inscription</h1>
+    </head>
+    
+    <body>
+    <main>
+    <h1>Inscription</h1>
 
-<form action="index.php?action=registerAttempt" method="post">
-    Nom d'utilisateur: <input type="text" name="username"><br>
-    Mot de passe: <input type="password" name="password"><br>
-    <input type="submit" value="S'inscrire">
-</form>
+    <form action="index.php?action=registerAttempt" method="post">
+        Nom d'utilisateur: <input type="text" name="username"><br>
+        Mot de passe: <input type="password" name="password"><br>
+        <input type="submit" value="S'inscrire">
+    </form>
 
-<a href="index.php?action=login">Déjà inscrit ? Se connecter</a>
-</main>
-</body>
-</html>
+    <a href="index.php?action=login">Déjà inscrit ? Se connecter</a>
+    </main>
+    </body>
+    </html>
 
 <?php
 include 'footer.php';

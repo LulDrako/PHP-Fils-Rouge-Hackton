@@ -1,5 +1,6 @@
 <?php
-require_once './config/db.php'; // Assurez-vous que le chemin est correct.
+
+require_once './config/db.php';
 
 function registerView() {
     include './views/register.php';

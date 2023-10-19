@@ -40,9 +40,9 @@ include './config/db.php';
             text-align: center;
         }
         #cart button {
-            background-color: #4CAF50; /* couleur de fond verte */
+            background-color: #4CAF50;
             border: none;
-            color: white; /* couleur de texte blanche */
+            color: white;
             padding: 10px 20px;
             text-align: center;
             text-decoration: none;
@@ -50,12 +50,12 @@ include './config/db.php';
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
-            border-radius: 8px; /* coins arrondis */
-            transition: background-color 0.3s; /* effet de transition lors du survol */
+            border-radius: 8px;
+            transition: background-color 0.3s;
         }
 
         #cart button:hover {
-            background-color: #45a049; /* couleur de fond un peu plus foncée lors du survol */
+            background-color: #45a049;
         }
 
         #cart h2 {
@@ -96,7 +96,7 @@ include './config/db.php';
     ?>
 </div>
 <div id="cart">
-    
+
 </div>
 
 <script>
@@ -153,15 +153,13 @@ function calculateTotal() {
 }
 
 function checkout() {
-    // Ici, vous pouvez ajouter la logique pour traiter la validation du panier.
-    // Par exemple, envoyer les données du panier à un serveur pour traitement, ou rediriger vers une page de paiement.
+    window.location.href = 'index.php?action=gotoPayment';
 
-    alert("Merci pour votre achat!");
+   /* alert("Merci pour votre achat!");
 
-    // Vider le panier
     cart = [];
     saveCart();
-    displayCart();
+    displayCart();*/
 }
 
 function saveCart() {

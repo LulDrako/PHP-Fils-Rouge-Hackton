@@ -1,10 +1,8 @@
 <?php
-session_start();
-
 $userGreeting = "";
 if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
-    $userGreeting = "<span>Bonjour, " . $_SESSION['username'] . "</span>"
-                  . '<a href="?action=logout">Déconnexion</a>';
+    $userGreeting = "<span>Bonjour, " . $_SESSION['username'] . "</span>" 
+    . '<a href="?action=logout">Déconnexion</a>';
 }
 ?>
 
@@ -41,15 +39,15 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
             margin-bottom: 5px;
         }
         .cart-link {
-    background-color: #f39c12;
-    border-radius: 4px;
-    margin-right: 10px; 
-    float: right; 
-}
-
-.cart-link:hover {
-    background-color: #e67e22; 
-}
+            background-color: #f39c12;
+            border-radius: 4px;
+            margin-right: 10px; 
+            float: right; 
+        }
+        
+        .cart-link:hover {
+            background-color: #e67e22; 
+        }
     </style>
 </head>
 

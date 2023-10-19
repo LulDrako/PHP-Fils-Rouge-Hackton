@@ -1,6 +1,7 @@
 <?php
 include 'header.php';
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -46,7 +47,6 @@ include 'header.php';
                 } else {
                     echo '<a href="?action=login">Se connecter</a>';
                     echo '<a href="?action=listProducts">Liste des produits</a>';
-                    
                 }
                 ?>
             </div>

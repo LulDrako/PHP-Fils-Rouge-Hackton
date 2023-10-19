@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 
 require './handlers/homeHandler.php';
@@ -7,6 +6,7 @@ require './handlers/loginHandler.php';
 require './handlers/registerHandler.php';
 require './handlers/productHandler.php';
 require './handlers/contactHandler.php';
+require './handlers/paymentHandler.php';
 
 $action = isset($_GET['action']) ? $_GET['action'] : 'home';
 
@@ -37,6 +37,14 @@ switch ($action) {
         include_once './handlers/productHandler.php';
         $products = getProducts();
         include './views/product-list.php';
+        break;
+    case 'gotoPayment':
+        include_once './handlers/paymentHandler.php'; 
+        showPaymentPage();
+        break;
+    case 'confirmPayment': 
+        include_once './handlers/paymentHandler.php'; 
+        confirmPayment();
         break;
     case 'contact':
         contact();
