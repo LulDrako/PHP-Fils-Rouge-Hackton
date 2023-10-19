@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $db   = 'iphone';
-$user = 'postgres';
-$pass = '141221';
+$username = 'postgres';
+$password = '141221';
 
 $dsn = "pgsql:host=$host;dbname=$db";
 $options = [
@@ -12,9 +12,8 @@ $options = [
 ];
 
 try {
-    $pdo = new PDO($dsn, $user, $pass, $options);
-} catch (\PDOException $e) {
-    die("Erreur de connexion à la base de données: " . $e->getMessage());
+    $pdo = new PDO($dsn, $username, $password, $options);
+    /*echo 'Connexion reussie';*/
+} catch (PDOException $e) {
+    echo "Erreur de connexion : " . $e->getMessage();
 }
-
-

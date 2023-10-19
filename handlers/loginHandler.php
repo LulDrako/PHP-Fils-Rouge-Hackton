@@ -17,7 +17,6 @@
         if ($user && password_verify($password, $user['password'])) {
             $_SESSION['logged_in'] = true;
             $_SESSION['username'] = $user['username'];
-            $_SESSION['register_date'] = $user['register_date'];
             return true;
         }
         return false;

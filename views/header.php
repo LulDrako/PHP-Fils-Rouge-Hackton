@@ -1,56 +1,59 @@
 <?php
 session_start();
 
+$userGreeting = "";
 if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
-    echo "<span>Bonjour, " . $_SESSION['username'] . "</span>";
-    echo '<a href="?action=logout">Déconnexion</a>';
+    $userGreeting = "<span>Bonjour, " . $_SESSION['username'] . "</span>"
+                  . '<a href="?action=logout">Déconnexion</a>';
 }
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CopUrIPhone</title> <!-- Mettez à jour le titre ici -->
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            background-color: #f4f4f4;
+        span{
+            margin-top : 10px;
         }
         .navbar {
             background-color: #333;
             overflow: hidden;
         }
-        .navbar a {
+        .navbar a, .navbar span {
             float: left;
-            display: block;
             color: white;
             text-align: center;
-            padding: 10px 16px;
+            padding: 5px 16px;
             text-decoration: none;
         }
         .navbar a:hover {
             background-color: #ddd;
             color: black;
         }
-        span {
-            margin-right: 10px;
-            text-align: center;
-            display: block;
+        .user-greeting {
+            float: right;
         }
         .site-title {
-            padding: 15px 0;
+            padding: 20px 0;
             text-align: center;
             color: black;
-            font-size: 24px;
-            margin-bottom: 10px;
+            font-size: 40px;
+            margin-bottom: 5px;
         }
+        .cart-link {
+    background-color: #f39c12;
+    border-radius: 4px;
+    margin-right: 10px; 
+    float: right; 
+}
+
+.cart-link:hover {
+    background-color: #e67e22; 
+}
     </style>
 </head>
-<body>
 
+<body>
 <div class="site-title">
     CopUrIPhone
 </div>
@@ -62,5 +65,10 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
         echo '<a href="?action=listProducts">Produits</a>';
     }
     ?>
-    <a href="/contact">Contact</a>
+
+    <div class="user-greeting">
+        <?= $userGreeting ?>
+    </div>
 </nav>
+</body>
+</html>
