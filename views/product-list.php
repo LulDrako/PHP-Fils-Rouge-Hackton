@@ -6,7 +6,7 @@ include './config/db.php';
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Products - CopUrIPhone</title>
+    <title>Products - CopUrPhone</title>
     <style>
         .product-list {
             display: flex;

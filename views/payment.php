@@ -5,7 +5,7 @@ include 'header.php';
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Transaction - CopUrIPhone</title>
+    <title>Transaction - CopUrPhone</title>
     <style>
          html, body {
                 margin: 0;

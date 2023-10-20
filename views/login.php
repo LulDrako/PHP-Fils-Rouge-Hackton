@@ -7,7 +7,7 @@ include 'header.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Login - CopUrIPhone</title>
+        <title>Login - CopUrPhone</title>
         <style>
             html, body {
                     margin: 0;

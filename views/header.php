@@ -53,7 +53,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
 
 <body>
 <div class="site-title">
-    CopUrIPhone
+    CopUrPhone
 </div>
 
 <nav class="navbar">
