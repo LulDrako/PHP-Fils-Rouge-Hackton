@@ -33,9 +33,6 @@ Les contributions à ce projet sont les bienvenues. Veuillez suivre les étapes 
 - Poussez à la branche (git push origin feature/NomDeVotreFeature).
 - Ouvrez une Pull Request.
 
-## Licence
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.
-
 ## Contact
 mohamed-karim.feki@efrei.net
 www.linkedin.com/in/mohamed-karim-feki-18ab66249/
