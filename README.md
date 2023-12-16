@@ -19,9 +19,9 @@ Ce projet PHP a été réalisé individuellement dans le cadre de mes études à
 ## Technologies et Outils
 - Backend: PHP
 - Frontend: HTML, CSS, et JavaScript.
-- Base de données: MySQL.
-- Environnement de développement: [Spécifier l'IDE ou les outils utilisés].
-
+- Base de données: PostgreSQL.
+- Environnement de développement: VScode
+  
 ## Installation et Configuration
 1. Cloner le dépôt GitHub :
    ```bash
@@ -40,11 +40,8 @@ Je suis ouvert aux suggestions d'amélioration ou aux contributions. Si vous sou
 4. Pousser la branche (`git push origin maNouvelleFonctionnalite`).
 5. Créer une Pull Request.
 
-## Licence
-Ce projet est distribué sous la licence MIT. Voir `LICENSE` pour plus de détails.
-
 ## Auteur et Contact
-- **[Mohamed Karim FEKI]**
+- **Mohamed Karim FEKI**
 - Email: [mohamed-karim.feki@efrei.net](mailto:mohamed-karim.feki@efrei.net)
 - LinkedIn: [Profil LinkedIn](www.linkedin.com/in/mohamed-karim-feki-18ab66249/)
 
