@@ -1,40 +1,51 @@
-# Apple Products Store
+
+# Projet PHP Individuel - B2 EFREI
 
 ## Description
-Ce projet a été développé dans le cadre du programme de Bachelor en Informatique à l'EFREI, visant à construire une application web fonctionnelle en utilisant le langage de programmation PHP.
+Ce projet PHP a été réalisé individuellement dans le cadre de mes études à l'EFREI en Bachelor Informatique. Il représente une application web développée pour approfondir mes compétences en PHP, en intégrant des fonctionnalités clés et des concepts de programmation web.
 
-## Fonctionnalités
-- Connexion/S'inscrire: Les utilisateurs peuvent créer un compte et se connecter.
-- CRUD: Les utilisateurs peuvent créer, lire, mettre à jour et supprimer des données.
-- Recherche: Fonction de recherche pour trouver des informations spécifiques.
-- Sécurité: Implémentation des mesures de sécurité de base pour protéger les données utilisateur.
+## Objectifs du Projet
+- Mettre en pratique les connaissances théoriques acquises en PHP.
+- Développer une application web from scratch pour comprendre le cycle complet de développement.
+- Intégrer des fonctionnalités utilisateur basiques et avancées.
+- Appliquer des principes de sécurité et de gestion de base de données.
 
-## Technologies Utilisées
-- PHP: Langage principal pour la logique côté serveur.
-- MySQL: Base de données pour stocker les informations.
-- HTML/CSS: Utilisés pour la structure et le style de l'application web.
-- JavaScript: Utilisé pour les interactions côté client.
+## Fonctionnalités Principales
+- Authentification: Système de connexion et d'inscription pour les utilisateurs.
+- Opérations CRUD: Créer, lire, mettre à jour, et supprimer des informations.
+- Interface utilisateur intuitive: Conception d'une interface claire et facile à utiliser.
+- Sécurité renforcée: Mise en œuvre de mesures pour sécuriser les données des utilisateurs.
 
-## Installation
-Pour exécuter ce projet, vous aurez besoin d'un serveur local comme XAMPP ou WAMP.
+## Technologies et Outils
+- Backend: PHP
+- Frontend: HTML, CSS, et JavaScript.
+- Base de données: MySQL.
+- Environnement de développement: [Spécifier l'IDE ou les outils utilisés].
 
-1. Clonez le dépôt dans votre dossier `htdocs` ou `www`.
-git clone https://github.com/LulDrako/PHPproject-B2.git
-Importez le fichier .sql dans votre base de données MySQL.
-Configurez votre connexion à la base de données dans le fichier config.php.
-Accédez à votre application via localhost dans votre navigateur web.
+## Installation et Configuration
+1. Cloner le dépôt GitHub :
+   ```bash
+   git clone https://github.com/LulDrako/PHPproject-B2.git
+   ```
+2. Configurer la base de données MySQL en important le fichier `.sql`.
+3. Modifier les paramètres de connexion à la base de données dans `config.php`.
+4. Démarrer un serveur local (comme XAMPP) et accéder au projet via `localhost`.
 
-## Contribution
-Les contributions à ce projet sont les bienvenues. Veuillez suivre les étapes suivantes :
+## Comment Contribuer
+Je suis ouvert aux suggestions d'amélioration ou aux contributions. Si vous souhaitez contribuer, voici comment procéder :
 
-### Forkez le dépôt.
-- Créez votre branche (git checkout -b feature/NomDeVotreFeature).
-- Committez vos changements (git commit -m 'Ajout de quelques fonctionnalités').
-- Poussez à la branche (git push origin feature/NomDeVotreFeature).
-- Ouvrez une Pull Request.
+1. Forker le projet.
+2. Créer une nouvelle branche (`git checkout -b maNouvelleFonctionnalite`).
+3. Faire vos modifications et les commiter (`git commit -am 'Ajout d'une nouvelle fonctionnalité'`).
+4. Pousser la branche (`git push origin maNouvelleFonctionnalite`).
+5. Créer une Pull Request.
 
-## Contact
-- mohamed-karim.feki@efrei.net
-- www.linkedin.com/in/mohamed-karim-feki-18ab66249/
+## Licence
+Ce projet est distribué sous la licence MIT. Voir `LICENSE` pour plus de détails.
 
-N'hésitez pas à contacter pour toute question ou suggestion concernant ce projet.
+## Auteur et Contact
+- **[Mohamed Karim FEKI]**
+- Email: [mohamed-karim.feki@efrei.net](mailto:mohamed-karim.feki@efrei.net)
+- LinkedIn: [Profil LinkedIn](www.linkedin.com/in/mohamed-karim-feki-18ab66249/)
+
+Pour toutes questions ou suggestions, n'hésitez pas à me contacter.
