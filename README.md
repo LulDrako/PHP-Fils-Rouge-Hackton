@@ -1,4 +1,4 @@
-# Projet PHP - EFREI B2
+# Apple Products Store
 
 ## Description
 Ce projet a été développé dans le cadre du programme de Bachelor en Informatique à l'EFREI, visant à construire une application web fonctionnelle en utilisant le langage de programmation PHP.
