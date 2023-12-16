@@ -5,10 +5,7 @@
 Ce projet PHP a été réalisé individuellement dans le cadre de mes études à l'EFREI en Bachelor Informatique. Il représente une application web développée pour approfondir mes compétences en PHP, en intégrant des fonctionnalités clés et des concepts de programmation web.
 
 ## Objectifs du Projet
-- Mettre en pratique les connaissances théoriques acquises en PHP.
-- Développer une application web from scratch pour comprendre le cycle complet de développement.
-- Intégrer des fonctionnalités utilisateur basiques et avancées.
-- Appliquer des principes de sécurité et de gestion de base de données.
+Ce projet PHP vise à consolider mes compétences en développement web à travers la création d'une application pratique, illustrant mon approche de la programmation et ma capacité à mettre en œuvre des solutions techniques complexes. Mon objectif est de développer une application robuste et fonctionnelle qui met en évidence mon savoir-faire en PHP, tout en explorant de nouvelles méthodologies.
 
 ## Fonctionnalités Principales
 - Authentification: Système de connexion et d'inscription pour les utilisateurs.
@@ -20,7 +17,7 @@ Ce projet PHP a été réalisé individuellement dans le cadre de mes études à
 - Backend: PHP
 - Frontend: HTML, CSS, et JavaScript.
 - Base de données: PostgreSQL.
-- Environnement de développement: VScode
+- Environnement de développement: Visual Studio Code (VSCode).
   
 ## Installation et Configuration
 1. Cloner le dépôt GitHub :
