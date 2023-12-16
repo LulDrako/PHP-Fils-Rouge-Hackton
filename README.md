@@ -28,10 +28,10 @@ Accédez à votre application via localhost dans votre navigateur web.
 Les contributions à ce projet sont les bienvenues. Veuillez suivre les étapes suivantes :
 
 ## Forkez le dépôt.
-Créez votre branche (git checkout -b feature/NomDeVotreFeature).
-Committez vos changements (git commit -m 'Ajout de quelques fonctionnalités').
-Poussez à la branche (git push origin feature/NomDeVotreFeature).
-Ouvrez une Pull Request.
+- Créez votre branche (git checkout -b feature/NomDeVotreFeature).
+- Committez vos changements (git commit -m 'Ajout de quelques fonctionnalités').
+- Poussez à la branche (git push origin feature/NomDeVotreFeature).
+- Ouvrez une Pull Request.
 
 ## Licence
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus d'informations.
