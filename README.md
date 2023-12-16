@@ -43,6 +43,6 @@ Je suis ouvert aux suggestions d'amélioration ou aux contributions. Si vous sou
 ## Auteur et Contact
 - **Mohamed Karim FEKI**
 - Email: [mohamed-karim.feki@efrei.net](mailto:mohamed-karim.feki@efrei.net)
-- LinkedIn: [Profil LinkedIn](www.linkedin.com/in/mohamed-karim-feki-18ab66249/)
+- LinkedIn: www.linkedin.com/in/mohamed-karim-feki-18ab66249/
 
 Pour toutes questions ou suggestions, n'hésitez pas à me contacter.
