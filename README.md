@@ -34,7 +34,7 @@ Les contributions à ce projet sont les bienvenues. Veuillez suivre les étapes 
 - Ouvrez une Pull Request.
 
 ## Contact
-mohamed-karim.feki@efrei.net
-www.linkedin.com/in/mohamed-karim-feki-18ab66249/
+- mohamed-karim.feki@efrei.net
+- www.linkedin.com/in/mohamed-karim-feki-18ab66249/
 
 N'hésitez pas à contacter pour toute question ou suggestion concernant ce projet.
