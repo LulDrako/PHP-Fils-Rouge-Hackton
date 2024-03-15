@@ -2,7 +2,7 @@
 # Projet PHP Individuel - B2 EFREI
 
 ## Description
-Ce projet PHP a été réalisé individuellement dans le cadre de mes études à l'EFREI en Bachelor Informatique. Il représente une application web développée pour approfondir mes compétences en PHP, en intégrant des fonctionnalités clés et des concepts de programmation web.
+Ce projet PHP a été réalisé individuellement dans le cadre de mes études à l'EFREI en Bachelor Développement Web & Applications. Il représente une application web développée pour approfondir mes compétences en PHP, en intégrant des fonctionnalités clés et des concepts de programmation web.
 
 ## Objectifs du Projet
 Ce projet PHP vise à consolider mes compétences en développement web à travers la création d'une application pratique, illustrant mon approche de la programmation et ma capacité à mettre en œuvre des solutions techniques complexes. Mon objectif est de développer une application robuste et fonctionnelle qui met en évidence mon savoir-faire en PHP, tout en explorant de nouvelles méthodologies.
