@@ -28,15 +28,6 @@ Ce projet PHP vise à consolider mes compétences en développement web à trave
 3. Modifier les paramètres de connexion à la base de données dans `config.php`.
 4. Démarrer un serveur local (comme XAMPP) et accéder au projet via `localhost`.
 
-## Comment Contribuer
-Je suis ouvert aux suggestions d'amélioration ou aux contributions. Si vous souhaitez contribuer, voici comment procéder :
-
-1. Forker le projet.
-2. Créer une nouvelle branche (`git checkout -b maNouvelleFonctionnalite`).
-3. Faire vos modifications et les commiter (`git commit -am 'Ajout d'une nouvelle fonctionnalité'`).
-4. Pousser la branche (`git push origin maNouvelleFonctionnalite`).
-5. Créer une Pull Request.
-
 ## Auteur et Contact
 - **Mohamed Karim FEKI**
 - Email: [mohamed-karim.feki@efrei.net](mailto:mohamed-karim.feki@efrei.net)
