@@ -56,13 +56,10 @@
     
     document.getElementById('backToHome').addEventListener('click', function(event) {
     
-    // Empêche le lien de fonctionner immédiatement
     event.preventDefault();
 
-    // Vide le panier du localStorage
     localStorage.removeItem('cart');
 
-    // Redirige l'utilisateur vers la boutique
     window.location.href = 'index.php';
 });
 

@@ -64,7 +64,6 @@ switch ($action) {
             if ($productId) {
                 editProductForm($productId);
             } else {
-                // Gérer le cas où aucun ID de produit n'est fourni
                 echo "Aucun ID de produit fourni.";
             }
             break;
@@ -83,11 +82,9 @@ switch ($action) {
                     ];
                     editProduct($productId, $productData);
                 } else {
-                    // Gérer le cas où aucun ID de produit n'est fourni
                     echo "Aucun ID de produit fourni.";
                 }
             } else {
-                // Gérer le cas où la méthode de requête n'est pas POST
                 echo "Méthode de requête non autorisée.";
             }
             break;

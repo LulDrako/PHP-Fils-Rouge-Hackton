@@ -40,7 +40,7 @@ function deleteProduct() {
 }
 
 function editProductForm($productId) {
-    include 'config/db.php';  // Assurez-vous que ce fichier contient la configuration de votre base de données
+    include 'config/db.php'; 
 
     if (!$productId) {
         echo "Aucun ID de produit fourni.";
@@ -56,7 +56,7 @@ function editProductForm($productId) {
         echo "Produit non trouvé.";
         exit;
     } else {
-        include './views/editProduct.php';  // Assurez-vous que ce fichier existe et contient le formulaire de modification
+        include './views/editProduct.php';  
     }
 }
 
