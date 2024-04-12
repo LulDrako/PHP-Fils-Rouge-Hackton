@@ -29,10 +29,10 @@ Ce projet PHP vise à consolider nos compétences en développement web à trave
 4. Démarrer un serveur local (comme XAMPP) et accéder au projet via `localhost`.
 
 ## Auteurs et Contacts
-Karim Feki 
-Abderrahmane Bessalah
-Ilyes Manai
-Rayan Toumert 
-Ervin Goby
+- Karim Feki 
+- Abderrahmane Bessalah
+- Ilyes Manai
+- Rayan Toumert 
+- Ervin Goby
 
 Pour toutes questions ou suggestions, n'hésitez pas à nous contacter.
