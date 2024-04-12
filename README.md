@@ -1,11 +1,11 @@
-
-# Projet PHP Individuel - B2 EFREI
+![Logo](LOGO_EFREI-PRINT_EFREI-WEB-1.png)
+# Projet PHP Fils Rouge Hackton - B2 EFREI
 
 ## Description
-Ce projet PHP a été réalisé individuellement dans le cadre de mes études à l'EFREI en Bachelor. Il représente une application web développée pour approfondir mes compétences en PHP, en intégrant des fonctionnalités clés et des concepts de programmation web.
+Ce projet PHP a été réalisé en groupe dans le cadre d'un projet Fils Rouge Hackaton. Il représente une application web développée pour approfondir nos compétences en PHP, en intégrant des fonctionnalités clés et des concepts de programmation web.
 
 ## Objectifs du Projet
-Ce projet PHP vise à consolider mes compétences en développement web à travers la création d'une application pratique, illustrant mon approche de la programmation et ma capacité à mettre en œuvre des solutions techniques complexes. Mon objectif est de développer une application robuste et fonctionnelle qui met en évidence mon savoir-faire en PHP, tout en explorant de nouvelles méthodologies.
+Ce projet PHP vise à consolider nos compétences en développement web à travers la création d'une application pratique, illustrant une approche de la programmation et de nos capacité à mettre en œuvre des solutions techniques complexes. Notre objectif est de développer une application robuste et fonctionnelle qui met en évidence notre savoir-faire en PHP, tout en explorant de nouvelles méthodologies.
 
 ## Fonctionnalités Principales
 - Authentification: Système de connexion et d'inscription pour les utilisateurs.
@@ -28,9 +28,11 @@ Ce projet PHP vise à consolider mes compétences en développement web à trave
 3. Modifier les paramètres de connexion à la base de données dans `config.php`.
 4. Démarrer un serveur local (comme XAMPP) et accéder au projet via `localhost`.
 
-## Auteur et Contact
-- **Mohamed Karim FEKI**
-- Email: [mohamed-karim.feki@efrei.net](mailto:mohamed-karim.feki@efrei.net)
-- LinkedIn: www.linkedin.com/in/mohamed-karim-feki-18ab66249/
+## Auteurs et Contacts
+Karim Feki 
+Abderrahmane Bessalah
+Ilyes Manai
+Rayan Toumert 
+Ervin Goby
 
-Pour toutes questions ou suggestions, n'hésitez pas à me contacter.
+Pour toutes questions ou suggestions, n'hésitez pas à nous contacter.
