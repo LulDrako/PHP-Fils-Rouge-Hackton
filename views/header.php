@@ -49,15 +49,17 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
             background-color: #e67e22; 
         }
     </style>
+        <link rel="icon" href="src/favicon.ico">
 </head>
 
 <body>
 <div class="site-title">
-    CopUrPhone
+    MyFigurines
 </div>
 
 <nav class="navbar">
     <a href="/home">Accueil</a>
+    <a href="?action=contact">Contact</a>
     <?php
     if (!isset($isAuthPage) || !$isAuthPage) {
         echo '<a href="?action=listProducts">Produits</a>';

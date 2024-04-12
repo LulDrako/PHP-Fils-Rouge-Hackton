@@ -5,7 +5,8 @@ include 'header.php';
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Transaction - CopUrPhone</title>
+    <title>Transaction - MyFigurines</title>
+    <link rel="icon" href="src/favicon.ico">
     <style>
          html, body {
                 margin: 0;

@@ -6,5 +6,7 @@
             "Karim\\PhpProjectB2\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "stripe/stripe-php": "^14.1"
+    }
 }

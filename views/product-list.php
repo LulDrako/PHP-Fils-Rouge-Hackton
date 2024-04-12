@@ -6,7 +6,7 @@ include './config/db.php';
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Products - CopUrPhone</title>
+    <title>Products - MyFigurine</title>
     <style>
         .product-list {
             display: flex;
@@ -81,14 +81,14 @@ include './config/db.php';
     if ($products) {
         foreach($products as $product) {
             echo "<div class='product-item'>";
-            echo "<img src='" . htmlspecialchars($product["image_url"]) . "' alt='" . htmlspecialchars($product["product_name"]) . "'>";
-            echo "<h2>" . htmlspecialchars($product["product_name"]) . "</h2>";
-            echo "<p>" . htmlspecialchars($product["description"]) . "</p>";
-            echo "<p>Prix: " . htmlspecialchars($product["price"]) . "€</p>";
-            echo "<p>Stock: " . htmlspecialchars($product["stock"]) . "</p>";
-            echo "<p>Catégorie: " . htmlspecialchars($product["category"]) . "</p>";
-            echo "<button onclick='addToCart(\"" . addslashes($product["product_name"]) . "\", " . $product["price"] . ")'>Ajouter au panier</button>";
-            echo "</div>";
+echo "<img src='" . htmlspecialchars($product["image_url"]) . "' alt='" . htmlspecialchars($product["product_name"]) . "' style='cursor:pointer' onclick=\"location.href='index.php?action=productDetail&id=" . $product["id"] . "'\">";
+echo "<h2 style='cursor:pointer' onclick=\"location.href='index.php?action=productDetail&id=" . $product["id"] . "'\">" . htmlspecialchars($product["product_name"]) . "</h2>";
+echo "<p>" . htmlspecialchars($product["description"]) . "</p>";
+echo "<p>Prix: " . htmlspecialchars($product["price"]) . "€</p>";
+echo "<p>Stock: " . htmlspecialchars($product["stock"]) . "</p>";
+echo "<p>Catégorie: " . htmlspecialchars($product["category"]) . "</p>";
+echo "<button onclick='event.stopPropagation(); addToCart(\"" . addslashes($product["product_name"]) . "\", " . $product["price"] . ")'>Ajouter au panier</button>";
+echo "</div>";
         }
     } else {
         echo "Aucun produit trouvé.";

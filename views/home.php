@@ -6,7 +6,7 @@ include 'header.php';
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Home - CopUrPhone</title>
+        <title>Home - MyFigurines</title>
         <style>
             html, body {
                 margin: 0;
@@ -34,16 +34,19 @@ include 'header.php';
                 padding: 10px 20px;
                 border: 1px solid #333;
                 border-radius: 5px;
+                text-decoration: none;
+                color: #333; 
             }
         </style>
     </head>
     <body>
         <main>
-            <h1>Bienvenue</h1>
+            <h1>Bienvenue sur MyFigurines</h1>
             <div class="center-container">
                 <?php 
                 if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                     echo '<a href="?action=listProducts">Liste des produits</a>';
+                    echo '<a href="?action=addProductForm">Ajouter une nouvelle figurine</a>';
                 } else {
                     echo '<a href="?action=login">Se connecter</a>';
                     echo '<a href="?action=listProducts">Liste des produits</a>';
@@ -53,7 +56,6 @@ include 'header.php';
         </main>
     </body>
 </html>
-
 
 <?php
 include 'footer.php';

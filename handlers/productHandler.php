@@ -20,4 +20,5 @@ function listProducts() {
     $products = getProducts();
     require './views/product-list.php';
 }
+
 ?>

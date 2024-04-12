@@ -1,12 +1,14 @@
 <?php
 session_start();
 
+require './handlers/addProductHandler';
 require './handlers/homeHandler.php';
 require './handlers/loginHandler.php';
 require './handlers/registerHandler.php';
 require './handlers/productHandler.php';
 require './handlers/contactHandler.php';
 require './handlers/paymentHandler.php';
+require './handlers/productDetailHandler.php';
 
 $action = isset($_GET['action']) ? $_GET['action'] : 'home';
 
@@ -34,23 +36,64 @@ switch ($action) {
         logout();
         break;
     case 'listProducts':
-        include_once './handlers/productHandler.php';
-        $products = getProducts();
-        include './views/product-list.php';
+        listProducts();
         break;
     case 'gotoPayment':
-        include_once './handlers/paymentHandler.php'; 
         showPaymentPage();
         break;
     case 'confirmPayment': 
-        include_once './handlers/paymentHandler.php'; 
         confirmPayment();
         break;
     case 'contact':
         contact();
         break;
+    case 'addProductForm':
+        addProductForm();
+        break;
+    case 'addProduct':
+        addProduct();
+        break;
+    case 'productDetail':
+        productDetail();
+        break;
+    case 'deleteProduct':
+        deleteProduct();
+        break;
+        case 'editProductForm':
+            $productId = $_GET['id'] ?? null;
+            if ($productId) {
+                editProductForm($productId);
+            } else {
+                // Gérer le cas où aucun ID de produit n'est fourni
+                echo "Aucun ID de produit fourni.";
+            }
+            break;
+        
+        case 'editProduct':
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                $productId = $_POST['id'] ?? null;
+                if ($productId) {
+                    $productData = [
+                        'product_name' => $_POST['product_name'] ?? null,
+                        'description' => $_POST['description'] ?? null,
+                        'price' => $_POST['price'] ?? null,
+                        'stock' => $_POST['stock'] ?? null,
+                        'category' => $_POST['category'] ?? null,
+                        'image_url' => $_POST['image_url'] ?? null,
+                    ];
+                    editProduct($productId, $productData);
+                } else {
+                    // Gérer le cas où aucun ID de produit n'est fourni
+                    echo "Aucun ID de produit fourni.";
+                }
+            } else {
+                // Gérer le cas où la méthode de requête n'est pas POST
+                echo "Méthode de requête non autorisée.";
+            }
+            break;
+        
     default:
         home();
+        break;
 }
-
 ?>

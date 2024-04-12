@@ -22,7 +22,7 @@
 
 
 <footer>
-    <p>&copy; 2023 CopUrPhone. Tous les droits sont réservés.</p>
+    <p>&copy; 2023 MyFigurine. Tous les droits sont réservés.</p>
 </footer>
 
 </body>
