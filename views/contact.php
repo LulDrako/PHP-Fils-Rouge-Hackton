@@ -43,11 +43,11 @@
     <div class="contactPhotos">
         <?php
         $team = array(
-            array("name" => "Karim FEKI", "linkedin" => "https://www.linkedin.com/in/karim-feki-18ab66249/", "image" => "src/images/karim.png"),
-            array("name" => "Abder Bess", "linkedin" => "https://www.linkedin.com/in/abder-bess/", "image" => "src/images/abder-bess.png"),
-            array("name" => "Rayan Toumert", "linkedin" => "https://www.linkedin.com/in/rayan-toumert/", "image" => "src/images/rayan.png"),
-            array("name" => "Ilyès Manai", "linkedin" => "https://www.linkedin.com/in/ily%C3%A8s-manai-a76649266/", "image" => "src/images/ilyes.png"),
-            array("name" => "Ervin Goby", "linkedin" => "https://www.linkedin.com/in/ervin-goby-b52b25235/", "image" => "src/images/ervin.png")
+            array("name" => "Karim FEKI", "linkedin" => "https://www.linkedin.com/in/karim-feki-18ab66249/", "image" => "images/karim.png"),
+            array("name" => "Abder Bess", "linkedin" => "https://www.linkedin.com/in/abder-bess/", "image" => "images/abder-bess.png"),
+            array("name" => "Rayan Toumert", "linkedin" => "https://www.linkedin.com/in/rayan-toumert/", "image" => "images/rayan.png"),
+            array("name" => "Ilyès Manai", "linkedin" => "https://www.linkedin.com/in/ily%C3%A8s-manai-a76649266/", "image" => "images/ilyes.png"),
+            array("name" => "Ervin Goby", "linkedin" => "https://www.linkedin.com/in/ervin-goby-b52b25235/", "image" => "images/ervin.png")
         );
 
         foreach ($team as $member) {
