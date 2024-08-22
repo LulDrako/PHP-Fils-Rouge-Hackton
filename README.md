@@ -1,4 +1,4 @@
-![Logo](LOGO_EFREI-PRINT_EFREI-WEB-1.png)
+![Logo](image.png)
 # Projet PHP Fils Rouge Hackton - B2 EFREI
 
 ## Description
