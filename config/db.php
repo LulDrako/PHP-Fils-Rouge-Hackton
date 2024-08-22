@@ -1,8 +1,14 @@
 <?php
-$host = 'localhost';
-$db   = 'figurine';
-$username = 'postgres';
-$password = '141221';
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
+$dotenv->load();
+
+$host = $_ENV['DB_HOST'];
+$db = $_ENV['DB_DATABASE'];
+$username = $_ENV['DB_USERNAME'];
+$password = $_ENV['DB_PASSWORD'];
 
 $dsn = "pgsql:host=$host;dbname=$db";
 $options = [
