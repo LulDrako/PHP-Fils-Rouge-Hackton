@@ -1,6 +1,6 @@
 {
     "name": "karim/php-project-b2",
-    "description": "Un site e-commerce en PHP, modèle MVC, pour la mise en vente de produits type Apple.",
+    "description": "Un site e-commerce en PHP, modèle MVC, pour la mise en vente de figurines.",
     "autoload": {
         "psr-4": {
             "Karim\\PhpProjectB2\\": "src/"
